@@ -1,6 +1,5 @@
 /** @format */
 
-import React from 'react'
 import MainContainer from '../components/MainContainer'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -9,7 +8,7 @@ import karel2 from '../karel/karel2.jpeg'
 import { NavLink } from 'react-router-dom'
 
 const Home = () => {
-	const image = 'https://www.maisons-mca.com/wp-content/uploads/constructeur-de-maison-ce-qu-il-faut-savoir-1.jpg'
+	/* const image = 'https://www.maisons-mca.com/wp-content/uploads/constructeur-de-maison-ce-qu-il-faut-savoir-1.jpg' */
 	return (
 		<MainContainer>
 			<Header />

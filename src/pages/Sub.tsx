@@ -1,18 +1,10 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import MainContainer from '../components/MainContainer'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import { SMTPClient } from 'emailjs'
 
 
 const Soumission = () => {
-	/* const client = new SMTPClient({
-		user: 'Hans',
-		password: 'caca',
-		host: 'hansetkarel@outlook.com',
-		ssl: true,
-	})
- */
 
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -25,18 +17,6 @@ const Soumission = () => {
 
 	const submitHandler = () => {
 		console.log('submit')
-		/* client.send(
-			{
-				text: 'i hope this works',
-				from: 'hansetkarel@outlook.com',
-				to: 'hansetkarel@outlook.com',
-				cc: '',
-				subject: 'testing emailjs',
-			},
-			(err, message) => {
-				console.log(err || message)
-			}
-		) */
 	}
 
     return (
