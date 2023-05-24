@@ -11,3 +11,123 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.full-height {
+  min-height: 100vh;
+}
+
+.logo-size-header {
+  height: 8vmin;
+  pointer-events: none;
+}
+
+.header-text {
+  font-size: 2vmin;
+  font-weight: 500;
+}
+
+.logo-size-footer {
+  height: 4vmin;
+  pointer-events: none;
+}
+
+.image-size {
+  height: 60vmin;
+  pointer-events: none;
+}
+
+.btn-rounded {
+  border-radius: 25px;
+  width: 8rem;
+}
+
+.bg-dark-transparent {
+  background: #434a54;
+  opacity: 0.7;
+}
+
+.rounded-container {
+  border-radius: 5%;
+}
+
+.text-light-gray {
+  color: #aab2bd;
+}
+
+.border-blue {
+  border: 1px solid #5e9cec;
+}
+
+
+
+.overflow-scroll {
+  overflow-x: scroll;
+  overflow-x: hidden;
+}
+
+.light-gray {
+  color: #8c8f98;
+}
+
+.bg-light-gray {
+  background-color: #8c8f98;
+}
+
+.dark-gray {
+  color: #787b86;
+}
+
+.bg-header-gradient {
+  background: linear-gradient( #6d6d6d, #525252);
+}
+
+.bg-main-gradient {
+  background: lightgray;
+}
+
+.orange {
+  color: #d46f37;
+}
+
+.yellow {
+  color: #FBC762;
+}
+
+.border-orange {
+  border-bottom: 1px solid #d46f37;
+}
+
+.border-yellow {
+  border-bottom: 2px solid #FBC762;
+}
+
+.border-top-black {
+  border-top: 1px solid #000000;
+}
+
+.road {
+  height: 30px;
+}
+
+.border-white {
+  border: 2px solid #ffffff;
+}
+
+.bg-orange {
+  background-color: #d46f37;
+}
+.bg-yellow {
+  background-color: #FBC762;
+}
+
+.bg-dark-gray {
+  background-color: #787b86;
+}
+
+.light-dark {
+  background-color: #474a4d;
+}
+
+.bg-black {
+  background-color: #3f424a;
+}
